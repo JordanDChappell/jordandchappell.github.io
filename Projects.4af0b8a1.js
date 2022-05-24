@@ -4,5 +4,17 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e,t=a(require("react")),r=a(require("prop-types")),l=a(require("styled-components")),u=a(require("./ProjectCard"));function a(e){return e&&e.__esModule?e:{default:e}}function i(e,t){return t||(t=e.slice(0)),Object.freeze(Object.defineProperties(e,{raw:{value:Object.freeze(t)}}))}const n=l.default.div(e||(e=i(["\n  display: flex;\n  flex-flow: row wrap;\n  justify-content: center;\n  gap: 2rem;\n"]))),o=e=>{let{projects:r}=e;return t.default.createElement(n,null,r.map(e=>t.default.createElement(u.default,{key:e.id,id:e.id,imageUrl:e.thumbnailUrl,title:e.title,subtitle:e.subtitle})))};o.propTypes={projects:r.default.array};var d=o;exports.default=d;
 },{"react":"n8MK","prop-types":"D9Od","styled-components":"tFSs","./ProjectCard":"hSCa"}],"n6GF":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=a(require("react")),t=require("../Utils/Requests"),r=u(require("../Components/Layout/PageHeading")),n=u(require("../Components/Projects/ProjectGrid"));function u(e){return e&&e.__esModule?e:{default:e}}function o(e){if("function"!=typeof WeakMap)return null;var t=new WeakMap,r=new WeakMap;return(o=function(e){return e?r:t})(e)}function a(e,t){if(!t&&e&&e.__esModule)return e;if(null===e||"object"!=typeof e&&"function"!=typeof e)return{default:e};var r=o(t);if(r&&r.has(e))return r.get(e);var n={},u=Object.defineProperty&&Object.getOwnPropertyDescriptor;for(var a in e)if("default"!==a&&Object.prototype.hasOwnProperty.call(e,a)){var f=u?Object.getOwnPropertyDescriptor(e,a):null;f&&(f.get||f.set)?Object.defineProperty(n,a,f):n[a]=e[a]}return n.default=e,r&&r.set(e,n),n}const f=()=>{const[u,o]=(0,e.useState)([]);return(0,e.useEffect)(()=>{(0,t.getListOfProjects)().then(e=>o(e)).catch(e=>console.error(e))},[]),e.default.createElement(e.default.Fragment,null,e.default.createElement(r.default,{text:"Projects"}),e.default.createElement(n.default,{projects:u}))};var c=f;exports.default=c;
-},{"react":"n8MK","../Utils/Requests":"tycZ","../Components/Layout/PageHeading":"r3XB","../Components/Projects/ProjectGrid":"leUe"}]},{},[], null)
-//# sourceMappingURL=/Projects.e487f158.js.map
+},{"react":"n8MK","../Utils/Requests":"tycZ","../Components/Layout/PageHeading":"r3XB","../Components/Projects/ProjectGrid":"leUe"}],"mwnv":[function(require,module,exports) {
+module.exports="/thumbnail.d9471a50.jpg";
+},{}],"SGRq":[function(require,module,exports) {
+module.exports="/thumbnail.818c2488.jpg";
+},{}],"wasi":[function(require,module,exports) {
+module.exports="/react-plus-parcel.8b623755.jpg";
+},{}],"EXdb":[function(require,module,exports) {
+module.exports="/use-this-template.fac739dd.jpg";
+},{}],"FMEQ":[function(require,module,exports) {
+module.exports="/thumbnail.2e97f33d.jpg";
+},{}],"RbQL":[function(require,module,exports) {
+module.exports="/header.0e9c9df1.jpg";
+},{}]},{},[], null)
+//# sourceMappingURL=/Projects.4af0b8a1.js.map
